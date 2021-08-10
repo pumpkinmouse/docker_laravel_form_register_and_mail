@@ -1,33 +1,10 @@
 "# docker_laravel_form_register_and_mail" 
 
-**■ファイル構成**
-	docker  
-		app  
-			Dockerrfile  
-			php.ini  
-		db  
-			Dockerfile  
-			my.cnf  
-			init  
-				sampleData.sql DBの初期のSQLファイルです。  
-		web  
-			Dockerfile  
-			default.conf  
-	src  
-		app  
-			以下laravelファイル  
+フォームでユーザー登録、メール送信するためのサンプル  
+.envファイルと作成して、メールの設定を行う必要がある  
   
-	docker-compose.yml  
-	.ignore  
-	.env  
   
-**■構成**
-	laravel
-	nginx
-	mysql
-
-  
-**■スタート手順**
+**■スタート手順**  
 	環境の構築  
 	```
 	docker-compose build
